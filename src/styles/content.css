@@ -1,0 +1,100 @@
+.content {
+    height: 100%;
+}
+
+
+/************* MAIN SMALL *************/
+.main {
+    background: #1a1a1a; 
+    float: none;
+    height: 100%;
+    width: 100%;
+  }
+  .main-select {
+    background: #121212;
+    box-sizing: border-box;
+    color: #6e6e6e;
+    font-size: 18px;
+    padding: 15px;
+    text-align: center;
+    width: 100%;
+  }
+  .main-select-divider {
+    color: #fff;
+    font-weight: 600;
+    margin: 0 20px;
+  }
+  .main-select-button {
+    background: none;
+    border: none;
+    color: #6e6e6e;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 600;
+    outline: none;
+  }
+  .main-select-button:hover {
+      color: #fff;
+  }
+  .main-select-button-playlist {
+      display: inline;
+  }
+  
+  .main-select-highlight {
+    color: #fff;
+  }
+  
+
+/************** MAIN lARGE **************/
+@media only screen and (min-width: 700px) {
+  .main {
+    float: right;
+    width: 75%;
+  }
+  .main-select {
+    text-align: left;
+  }
+  .main-select-button {
+      font-size: 18px;
+  }
+  .main-select-button-playlist {
+      display: none;
+  }
+}
+
+
+/************** SIDEBAR SMALL **************/
+.sidebar {
+    background: #1a1a1a; /*1A1A1A*/
+    display: none;
+    float: none;
+    height: 100%;
+    width: 100%;
+  }
+
+.sidebar-text {
+    background: #121212;
+    box-sizing: border-box;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 15px;
+    text-align: center;
+    width: 100%;
+  }
+
+
+/************** SIDEBAR LARGE **************/
+  @media only screen and (min-width: 700px) {
+    .sidebar {
+        display: block;
+        float: left;
+        width: 24%;
+    }
+    .main-select {
+        text-align: left;
+    }
+    .sidebar-text {
+        text-align: left;
+    }
+  }

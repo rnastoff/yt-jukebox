@@ -1,0 +1,16 @@
+
+-YT Jukebox
+ -Header
+ -Container
+  -Controls
+  -Content
+   -Sidebar
+    -Playlist (Individual Playlists)
+   -Main
+    -Search
+     -SearchResult
+    -CurrentPlaylist
+     -Song
+
+
+-Footer Message

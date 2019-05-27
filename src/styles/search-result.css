@@ -1,0 +1,51 @@
+
+/***** SMALL *****/
+/***** IMG/TITLE/CONTROLS *****/
+.search-result {    
+    padding: 0px 16px;
+}
+.search-result-info {
+    border-bottom: 1px solid #101010;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+.search-result-video img {
+    display: inline-block;
+    height: 50px;
+    vertical-align: bottom;
+    width: 89px;
+}
+.search-result-title {
+    display: inline-block;
+    font-size: 14px;
+    height: 50px;
+    overflow: hidden;
+    padding: 5px 10px;
+    vertical-align: top;
+    width: 70%;
+}
+
+.search-result-buttons {
+    background: none;
+    border: 3px solid #ff3334;
+    color: #fff;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 500;
+    display: inline-block;
+    outline: none;
+    margin: 10px 10px 10px 0;
+    padding: 5px;
+    width: 100px;
+}
+.search-result-buttons:hover {
+    background: #ff3334;
+}
+
+@media only screen and (min-width: 840px) {
+    .search-result-title {
+        font-size: 16px;
+        width: 80%;
+    }
+}

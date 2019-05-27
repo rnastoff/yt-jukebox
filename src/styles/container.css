@@ -1,0 +1,7 @@
+.container {    
+    height: 75%; /****** HEIGHT ******/
+    max-width: 1000px;
+    margin: 0 auto;
+    margin-top: 16px;
+  }
+  

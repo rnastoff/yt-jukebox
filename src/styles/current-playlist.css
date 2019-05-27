@@ -1,0 +1,5 @@
+.current-playlist {
+    color: #fff;
+    height: calc(100% - 50px); /****FILL HEIGHT ****/
+    overflow-y: scroll;
+  }

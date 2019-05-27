@@ -1,0 +1,52 @@
+.current-playlist-item-info {
+    padding: 15px 10px 0 10px;
+    border-bottom: 1px solid #101010;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 10px 0 0px;
+}
+
+.current-playlist-item-title {
+    color: #fff;
+    font-size: 14px;
+    padding: 5px 10px;
+}
+.current-playlist-item-buttons-play {
+    cursor: pointer;
+    font-size: 22px;
+    margin-right: 5px;
+    vertical-align: bottom;
+}
+.current-playlist-item-buttons {
+    color: #fff;    
+    font-size: 30px;
+    vertical-align: bottom;
+}
+
+.current-playlist-item-buttons-up,
+.current-playlist-item-buttons-down,
+.current-playlist-item-buttons-remove {
+    cursor: pointer;
+    margin-right: 5px;
+}
+
+
+.current-playlist-item-video {
+    border-bottom: 1px solid #101010;
+    display: none;
+    padding: 15px;
+}
+.current-playlist-item-video iframe {
+    border: none;
+    height: 150px;
+    width: 266px;
+}
+
+
+
+
+@media only screen and (min-width: 700px) {
+    .current-playlist-item-title {
+        font-size: 18px;
+    }
+}

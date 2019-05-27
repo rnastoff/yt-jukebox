@@ -1,0 +1,19 @@
+/************* CONTROLS *************/
+.controls {
+    background: #1a1a1a;
+    margin-top: 16px;
+    padding: 12px;
+    text-align: center;
+  }
+  
+  .controls-button {
+    background: none;
+    border: none;
+    outline: none;
+    padding: 0 40px;
+  }
+  
+  .md-button {
+    color: #ff3334;
+    font-size: 44px;
+  }

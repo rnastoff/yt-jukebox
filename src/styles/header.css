@@ -1,0 +1,104 @@
+/************* HEADER *************/
+.header {
+    background: #121212;
+    padding: 20px;
+  }
+  .header-container {
+    margin: 0 auto;
+    max-width: 1000px;  /* width of content */
+  }
+  
+  .header-text {
+    float: left;
+    font-size: 28px;
+    text-align: center;
+  }
+  
+  .header-yt {
+    color: #ff3334;
+    font-weight: 600;
+  }
+  
+  .header-playlist {
+    color: #fff;  
+    font-weight: 300;
+  }
+  
+  .header-login {
+    border: 3px solid #ff3334;
+    background: none;
+    color: #fff;
+    cursor: pointer;
+    float: right;
+    font-size: 18px;
+    font-weight: 600;
+    height: 36px;
+    outline: none;
+    width: 100px;
+  }
+  
+  .header-title::after {
+    content: "";
+    clear: both;
+    display: block;
+  }
+  
+  .header-form {
+    margin: 0 auto;
+    margin-top: 10px;
+    text-align: center;
+  }
+  
+  .header-input {
+    background: none;
+    border: 3px solid #ff3334;
+    color: #fff;  
+    height: 36px;  
+    outline: none;
+    margin-right: 10px;
+    padding: 10px;
+    width: 75%;
+    vertical-align: bottom;
+  }
+  .header-search {
+    background: none;
+    border: 3px solid #ff3334;
+    height: 36px;
+    outline: none;
+    width: 50px;
+  }
+  
+  .header-fa-play {
+    color: #fff;
+    font-size: 18px;
+  }
+  
+  .header-search:hover {
+    background: #ff3334;
+    cursor: pointer;
+  }
+  
+  .header-login:hover {
+    background: #ff3334;
+  }
+  
+  @media only screen and (min-width: 600px) {
+    .header-title::after {
+      clear: none;
+    }  
+    .header-text {
+      float: left;
+    }
+    .header-form {
+      float: right;
+      margin-top: 0;
+    }
+    .header-login {
+      float: right;
+    }
+    .header::after {
+      clear: both;
+      content: "";
+      display: block;
+    }
+  }

@@ -1,0 +1,21 @@
+.sidebar-item {
+    padding: 15px 10px 0 10px;
+}
+
+.sidebar-item-input {
+    background: none;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    font-size: 14px;
+    outline: none;
+}
+.sidebar-item-input::placeholder {
+    color: #fff;
+}
+
+@media only screen and (min-width: 1000px) {
+    .sidebar-item-input {
+        font-size: 16px;
+    }
+}

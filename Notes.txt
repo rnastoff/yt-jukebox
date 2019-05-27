@@ -3,7 +3,11 @@ Youtube Jukebox
 YOUTUBE API KEY
 AIzaSyC-Gclur8nIzwYWvpifIETdox2lSB0qD98
 
+HTTP REQUEST
+https://www.googleapis.com/youtube/v3/search?part=snippet&q=" + keyword + "&maxResults=25&key=AIzaSyC-Gclur8nIzwYWvpifIETdox2lSB0qD98
 
+
+---------------------------------------------
 -Firebase
 -Youtube API
 
